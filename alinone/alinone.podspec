@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "10.0"
 
-  spec.source_files  = "alInOne/*.swift"
+  spec.source_files  = "alInOne/alInOne/**/*.swift"
 
   spec.requires_arc = true
   spec.static_framework = true
