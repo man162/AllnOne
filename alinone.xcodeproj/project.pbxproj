@@ -10,6 +10,8 @@
 		6B45DB652525740900C10C48 /* alInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B45DB5B2525740800C10C48 /* alInOne.framework */; };
 		6B45DB6A2525740900C10C48 /* alInOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DB692525740900C10C48 /* alInOneTests.swift */; };
 		6B45DB6C2525740900C10C48 /* alInOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B45DB5E2525740800C10C48 /* alInOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B45DB932525868400C10C48 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DB922525868400C10C48 /* AppInfo.swift */; };
+		889CBF583D8783CBD80E6CE7 /* Pods_alInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805422579F18988ECA261515 /* Pods_alInOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		177FF36C7B388A693732E8B1 /* Pods-alInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alInOne.debug.xcconfig"; path = "Target Support Files/Pods-alInOne/Pods-alInOne.debug.xcconfig"; sourceTree = "<group>"; };
 		6B45DB5B2525740800C10C48 /* alInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = alInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B45DB5E2525740800C10C48 /* alInOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alInOne.h; sourceTree = "<group>"; };
 		6B45DB5F2525740800C10C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B45DB642525740900C10C48 /* alInOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alInOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B45DB692525740900C10C48 /* alInOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alInOneTests.swift; sourceTree = "<group>"; };
 		6B45DB6B2525740900C10C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B45DB922525868400C10C48 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		805422579F18988ECA261515 /* Pods_alInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F77F876185612C8B499D6D3 /* Pods-alInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alInOne.release.xcconfig"; path = "Target Support Files/Pods-alInOne/Pods-alInOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889CBF583D8783CBD80E6CE7 /* Pods_alInOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +57,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F8EA24C8C2AFD121E132EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				177FF36C7B388A693732E8B1 /* Pods-alInOne.debug.xcconfig */,
+				8F77F876185612C8B499D6D3 /* Pods-alInOne.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6B45DB512525740800C10C48 = {
 			isa = PBXGroup;
 			children = (
 				6B45DB5D2525740800C10C48 /* alInOne */,
 				6B45DB682525740900C10C48 /* alInOneTests */,
 				6B45DB5C2525740800C10C48 /* Products */,
+				51F8EA24C8C2AFD121E132EA /* Pods */,
+				6E82F2C12748EF765753C785 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +90,8 @@
 		6B45DB5D2525740800C10C48 /* alInOne */ = {
 			isa = PBXGroup;
 			children = (
+				6B45DB8F2525862800C10C48 /* Services */,
+				6B45DB902525864300C10C48 /* Utils */,
 				6B45DB5E2525740800C10C48 /* alInOne.h */,
 				6B45DB5F2525740800C10C48 /* Info.plist */,
 			);
@@ -84,6 +105,37 @@
 				6B45DB6B2525740900C10C48 /* Info.plist */,
 			);
 			path = alInOneTests;
+			sourceTree = "<group>";
+		};
+		6B45DB8F2525862800C10C48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DB912525866A00C10C48 /* AppInfo */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6B45DB902525864300C10C48 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6B45DB912525866A00C10C48 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6B45DB922525868400C10C48 /* AppInfo.swift */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		6E82F2C12748EF765753C785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805422579F18988ECA261515 /* Pods_alInOne.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B45DB6F2525740900C10C48 /* Build configuration list for PBXNativeTarget "alInOne" */;
 			buildPhases = (
+				12ABCA5919B8AC74953210D7 /* [CP] Check Pods Manifest.lock */,
 				6B45DB562525740800C10C48 /* Headers */,
 				6B45DB572525740800C10C48 /* Sources */,
 				6B45DB582525740800C10C48 /* Frameworks */,
@@ -147,6 +200,7 @@
 				TargetAttributes = {
 					6B45DB5A2525740800C10C48 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					6B45DB632525740900C10C48 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -189,11 +243,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12ABCA5919B8AC74953210D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alInOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B45DB572525740800C10C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B45DB932525868400C10C48 /* AppInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +420,9 @@
 		};
 		6B45DB702525740900C10C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FF36C7B388A693732E8B1 /* Pods-alInOne.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GQ88LAGB77;
@@ -354,9 +436,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manpreetsingh.alInOne;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +448,9 @@
 		};
 		6B45DB712525740900C10C48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F77F876185612C8B499D6D3 /* Pods-alInOne.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GQ88LAGB77;
@@ -378,6 +464,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manpreetsingh.alInOne;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -389,6 +476,7 @@
 		6B45DB732525740900C10C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQ88LAGB77;
 				INFOPLIST_FILE = alInOneTests/Info.plist;
@@ -407,6 +495,7 @@
 		6B45DB742525740900C10C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQ88LAGB77;
 				INFOPLIST_FILE = alInOneTests/Info.plist;

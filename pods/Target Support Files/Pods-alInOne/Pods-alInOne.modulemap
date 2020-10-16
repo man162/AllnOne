@@ -1,0 +1,6 @@
+framework module Pods_alInOne {
+  umbrella header "Pods-alInOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
