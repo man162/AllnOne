@@ -11,7 +11,7 @@
 		6B45DB6A2525740900C10C48 /* alInOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DB692525740900C10C48 /* alInOneTests.swift */; };
 		6B45DB6C2525740900C10C48 /* alInOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B45DB5E2525740800C10C48 /* alInOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B45DB932525868400C10C48 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45DB922525868400C10C48 /* AppInfo.swift */; };
-		6B625AE8253A28790010C589 /* alinone.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6B625AE7253A28790010C589 /* alinone.podspec */; };
+		6B625AE8253A28790010C589 /* alInOne.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6B625AE7253A28790010C589 /* alInOne.podspec */; };
 		889CBF583D8783CBD80E6CE7 /* Pods_alInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805422579F18988ECA261515 /* Pods_alInOne.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		6B45DB692525740900C10C48 /* alInOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alInOneTests.swift; sourceTree = "<group>"; };
 		6B45DB6B2525740900C10C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B45DB922525868400C10C48 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
-		6B625AE7253A28790010C589 /* alinone.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alinone.podspec; sourceTree = "<group>"; };
+		6B625AE7253A28790010C589 /* alInOne.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alInOne.podspec; sourceTree = "<group>"; };
 		805422579F18988ECA261515 /* Pods_alInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F77F876185612C8B499D6D3 /* Pods-alInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alInOne.release.xcconfig"; path = "Target Support Files/Pods-alInOne/Pods-alInOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 		6B45DB512525740800C10C48 = {
 			isa = PBXGroup;
 			children = (
-				6B45DB5D2525740800C10C48 /* alInOne */,
+				6B45DB5D2525740800C10C48 /* alinone */,
 				6B45DB682525740900C10C48 /* alInOneTests */,
 				6B45DB5C2525740800C10C48 /* Products */,
 				51F8EA24C8C2AFD121E132EA /* Pods */,
@@ -88,16 +88,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B45DB5D2525740800C10C48 /* alInOne */ = {
+		6B45DB5D2525740800C10C48 /* alinone */ = {
 			isa = PBXGroup;
 			children = (
 				6B45DB8F2525862800C10C48 /* Services */,
 				6B45DB902525864300C10C48 /* Utils */,
 				6B45DB5E2525740800C10C48 /* alInOne.h */,
-				6B625AE7253A28790010C589 /* alinone.podspec */,
+				6B625AE7253A28790010C589 /* alInOne.podspec */,
 				6B45DB5F2525740800C10C48 /* Info.plist */,
 			);
-			path = alInOne;
+			path = alinone;
 			sourceTree = "<group>";
 		};
 		6B45DB682525740900C10C48 /* alInOneTests */ = {
@@ -233,7 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B625AE8253A28790010C589 /* alinone.podspec in Resources */,
+				6B625AE8253A28790010C589 /* alInOne.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
